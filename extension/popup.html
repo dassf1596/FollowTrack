@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <div class="logo-box">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+        </svg>
+      </div>
+      <h1>Follow<span>Track</span></h1>
+    </div>
+    
+    <div class="status-panel">
+      <div class="indicator pulse"></div>
+      <div class="status-text">Helper Active & Ready</div>
+    </div>
+    
+    <div class="instructions">
+      <h2>How to Auto-Sync:</h2>
+      <ol>
+        <li>Log into <a href="http://localhost:3000" target="_blank">FollowTrack Dashboard</a>.</li>
+        <li>Open <a href="https://www.instagram.com" target="_blank">Instagram</a> in your browser.</li>
+        <li>Go to your profile page and click on either <strong>Followers</strong> or <strong>Following</strong> lists.</li>
+        <li>Scroll down the list so Instagram loads the names.</li>
+        <li>The extension will capture the lists automatically and sync them to your local dashboard!</li>
+      </ol>
+    </div>
+
+    <div class="footer">
+      <a href="http://localhost:3000/dashboard" target="_blank" class="btn">Open Local Dashboard</a>
+    </div>
+  </div>
+</body>
+</html>
